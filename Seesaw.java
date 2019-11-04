@@ -1,7 +1,14 @@
+/*
+Irene Liu
+irliu@chapman.edu
+CPSC 380
+2313260
+*/
+
 import java.util.concurrent.*;
 
 public class Seesaw {
-    static class Counter {
+    static class Control {
       public volatile int count = 10;
       public volatile boolean leftUp = true;
       public volatile float velocity = 1;
@@ -12,10 +19,10 @@ public class Seesaw {
       //public int MAX_HEIGHT = 7;
       public Semaphore p;
       public Semaphore q;
-      public Counter c;
+      public Control c;
       public float position = 1;
 
-      public Fred (Semaphore p, Counter c, Semaphore q) {
+      public Fred (Semaphore p, Control c, Semaphore q) {
         this.c = c;
         this.p = p;
         this.q = q;
@@ -25,37 +32,41 @@ public class Seesaw {
         while (c.count > 0) {
           try {
             q.acquire();
-            //Thread.sleep(1000);
-            if (position <= 1.0) {
-              c.leftUp = true;
-              c.velocity = VELOCITY;
-              System.out.println("Iteration: " + (11 - c.count));
+            Thread.sleep(1000);
+            if(c.count > 0) {
+              if (position <= 1.0) {
+                c.leftUp = true;
+                c.velocity = VELOCITY;
+                System.out.println("Counter: " + (11 - c.count));
+                //c.count--;
+              }
+              if(c.leftUp)
+                position += c.velocity;
+              else {
+                position -= c.velocity;
+              }
+              System.out.print("Fred: " + position);
+
+              p.release();
+            }
+            }
+            catch (InterruptedException e) {
 
             }
-            if(c.leftUp)
-              position += c.velocity;
-            else {
-              position -= c.velocity;
-            }
-            System.out.print("Fred: " + position);
-            p.release();
-          }
-          catch (InterruptedException e) {
-
           }
         }
       }
-    }
+
 
     static class Wilma implements Runnable {
       public float VELOCITY = (float)1.5;
       //public int MAX_HEIGHT = 7;
       public Semaphore p;
       public Semaphore q;
-      public Counter c;
+      public Control c;
       public float position = 7;
 
-      public Wilma (Semaphore p, Counter c, Semaphore q) {
+      public Wilma (Semaphore p, Control c, Semaphore q) {
         this.p = p;
         this.c = c;
         this.q = q;
@@ -65,6 +76,7 @@ public class Seesaw {
         while(c.count > 0) {
           try {
             p.acquire();
+
             if(c.leftUp) {
               position -= c.velocity;
             }
@@ -74,9 +86,13 @@ public class Seesaw {
             if (position <= 1.0) {
               c.leftUp = false;
               c.velocity = VELOCITY;
+              //c.count--;
+            }
+            if (position >= 7) {
               c.count--;
             }
             System.out.print(" Wilma: " + position + "\n");
+
             q.release();
           }
           catch (InterruptedException e) {
@@ -87,7 +103,7 @@ public class Seesaw {
     }
 
     public static void main(String args[]) {
-      final Counter c = new Counter();
+      final Control c = new Control();
       Semaphore pSemaphore = new Semaphore(0);
       Semaphore qSemaphore = new Semaphore(1);
       Thread fThread = new Thread(new Fred(pSemaphore, c, qSemaphore));

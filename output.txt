@@ -1,0 +1,115 @@
+Script started on Mon Nov  4 01:33:00 2019
+# java Seesaw
+Counter: 1
+Fred: 2.0 Wilma: 6.0
+Fred: 3.0 Wilma: 5.0
+Fred: 4.0 Wilma: 4.0
+Fred: 5.0 Wilma: 3.0
+Fred: 6.0 Wilma: 2.0
+Fred: 7.0 Wilma: 1.0
+Fred: 5.5 Wilma: 2.5
+Fred: 4.0 Wilma: 4.0
+Fred: 2.5 Wilma: 5.5
+Fred: 1.0 Wilma: 7.0
+Counter: 2
+Fred: 2.0 Wilma: 6.0
+Fred: 3.0 Wilma: 5.0
+Fred: 4.0 Wilma: 4.0
+Fred: 5.0 Wilma: 3.0
+Fred: 6.0 Wilma: 2.0
+Fred: 7.0 Wilma: 1.0
+Fred: 5.5 Wilma: 2.5
+Fred: 4.0 Wilma: 4.0
+Fred: 2.5 Wilma: 5.5
+Fred: 1.0 Wilma: 7.0
+Counter: 3
+Fred: 2.0 Wilma: 6.0
+Fred: 3.0 Wilma: 5.0
+Fred: 4.0 Wilma: 4.0
+Fred: 5.0 Wilma: 3.0
+Fred: 6.0 Wilma: 2.0
+Fred: 7.0 Wilma: 1.0
+Fred: 5.5 Wilma: 2.5
+Fred: 4.0 Wilma: 4.0
+Fred: 2.5 Wilma: 5.5
+Fred: 1.0 Wilma: 7.0
+Counter: 4
+Fred: 2.0 Wilma: 6.0
+Fred: 3.0 Wilma: 5.0
+Fred: 4.0 Wilma: 4.0
+Fred: 5.0 Wilma: 3.0
+Fred: 6.0 Wilma: 2.0
+Fred: 7.0 Wilma: 1.0
+Fred: 5.5 Wilma: 2.5
+Fred: 4.0 Wilma: 4.0
+Fred: 2.5 Wilma: 5.5
+Fred: 1.0 Wilma: 7.0
+Counter: 5
+Fred: 2.0 Wilma: 6.0
+Fred: 3.0 Wilma: 5.0
+Fred: 4.0 Wilma: 4.0
+Fred: 5.0 Wilma: 3.0
+Fred: 6.0 Wilma: 2.0
+Fred: 7.0 Wilma: 1.0
+Fred: 5.5 Wilma: 2.5
+Fred: 4.0 Wilma: 4.0
+Fred: 2.5 Wilma: 5.5
+Fred: 1.0 Wilma: 7.0
+Counter: 6
+Fred: 2.0 Wilma: 6.0
+Fred: 3.0 Wilma: 5.0
+Fred: 4.0 Wilma: 4.0
+Fred: 5.0 Wilma: 3.0
+Fred: 6.0 Wilma: 2.0
+Fred: 7.0 Wilma: 1.0
+Fred: 5.5 Wilma: 2.5
+Fred: 4.0 Wilma: 4.0
+Fred: 2.5 Wilma: 5.5
+Fred: 1.0 Wilma: 7.0
+Counter: 7
+Fred: 2.0 Wilma: 6.0
+Fred: 3.0 Wilma: 5.0
+Fred: 4.0 Wilma: 4.0
+Fred: 5.0 Wilma: 3.0
+Fred: 6.0 Wilma: 2.0
+Fred: 7.0 Wilma: 1.0
+Fred: 5.5 Wilma: 2.5
+Fred: 4.0 Wilma: 4.0
+Fred: 2.5 Wilma: 5.5
+Fred: 1.0 Wilma: 7.0
+Counter: 8
+Fred: 2.0 Wilma: 6.0
+Fred: 3.0 Wilma: 5.0
+Fred: 4.0 Wilma: 4.0
+Fred: 5.0 Wilma: 3.0
+Fred: 6.0 Wilma: 2.0
+Fred: 7.0 Wilma: 1.0
+Fred: 5.5 Wilma: 2.5
+Fred: 4.0 Wilma: 4.0
+Fred: 2.5 Wilma: 5.5
+Fred: 1.0 Wilma: 7.0
+Counter: 9
+Fred: 2.0 Wilma: 6.0
+Fred: 3.0 Wilma: 5.0
+Fred: 4.0 Wilma: 4.0
+Fred: 5.0 Wilma: 3.0
+Fred: 6.0 Wilma: 2.0
+Fred: 7.0 Wilma: 1.0
+Fred: 5.5 Wilma: 2.5
+Fred: 4.0 Wilma: 4.0
+Fred: 2.5 Wilma: 5.5
+Fred: 1.0 Wilma: 7.0
+Counter: 10
+Fred: 2.0 Wilma: 6.0
+Fred: 3.0 Wilma: 5.0
+Fred: 4.0 Wilma: 4.0
+Fred: 5.0 Wilma: 3.0
+Fred: 6.0 Wilma: 2.0
+Fred: 7.0 Wilma: 1.0
+Fred: 5.5 Wilma: 2.5
+Fred: 4.0 Wilma: 4.0
+Fred: 2.5 Wilma: 5.5
+Fred: 1.0 Wilma: 7.0
+# exit
+
+Script done on Mon Nov  4 01:34:53 2019
